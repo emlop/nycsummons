@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NYC Summons Consultants</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="assets/city.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!------- about us content -------->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Our Mission</h1>
+          <p>
+            At NYC Summons Consultants, where we empower you to navigate legal
+            intricacies and administrative tasks with confidence. Our
+            comprehensive suite of services is tailored to lighten your load and
+            ensure your success. <br />From providing detailed insights into
+            your rights and obligations regarding summonses to efficiently
+            completing essential forms, we save you time and alleviate
+            administrative burdens. <br />Our dedicated team assists in
+            registering for summons-related hearings, guaranteeing your timely
+            participation and representation. We offer meticulous document
+            reviews, identifying potential discrepancies or errors, so you can
+            approach legal processes with accuracy. <br />Our personalized
+            consultations break down OATH Hearing procedures and NYC violations
+            from various agencies, ensuring clarity and peace of mind. When
+            documents need official certification, our public notary service is
+            at your service. <br />Simplify your journey through legal
+            challenges and administrative complexities by partnering with NYC
+            Summons Consultants. Contact us today to unlock your path to
+            success.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="assets/consult.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <a href="https://www.emellopez.com" class="footer-link"><p>emlop</p></a>
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
